@@ -1,0 +1,24 @@
+// WRITE c++ PROGRAM TO CHECK A GIVEM INTEGER AND RETURN TRUE IF IT IS WITHIN 10 OF 100 OR 200?
+
+#include<ibstream>
+#include<math.h>
+using namespace std;
+
+bool check(int num)
+{
+  int within_100 = abs (num-100);
+  int within_200 = abs (num-200);
+
+  if (within_100 <= 10 ||within_200 <=0;
+    return true;
+}
+
+int main()
+{
+  int num;
+  cout <<"input: ";
+  cin >> num;
+
+  cout<<"output: ";
+  cout<<check(num);
+}
